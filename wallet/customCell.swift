@@ -10,6 +10,24 @@ import UIKit
 
 class customCell: UITableViewCell {
 
+    
+    @IBOutlet var imageLetter: UILabel!
+    @IBOutlet var purchaseNameLabel: UILabel!
+    @IBOutlet var purchaseDateLabel: UILabel!
+    @IBOutlet var purchaseAmountLabel: UILabel!
+    
+    func showCellData(name:String, date:String, amount:Double) {
+        if !(name=="None"){
+            imageLetter.text = String(name.prefix(1)).capitalized
+        }
+        else {
+            imageLetter.text = "?"
+        }
+        purchaseNameLabel.text = name
+        purchaseDateLabel.text = date
+        purchaseAmountLabel.text = String(amount) + " KM"
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +38,5 @@ class customCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }
