@@ -138,15 +138,13 @@ class ViewController: UIViewController {
             saveData()
             purchaseName.text = ""
             purchaseAmount.text = ""
-            UIView.animate(withDuration: 0.5, delay: 0.5, options:[], animations: {
-                self.moneyLeft.textColor = UIColor.green
+            UIView.transition(with: moneyLeft, duration: 0.25, options: .transitionCrossDissolve, animations: {
+                self.moneyLeft.textColor = UIColor(red: 80/255, green: 230/255, blue: 80/255, alpha: 1)
             }, completion: {_ in
-                UIView.animate(withDuration: 0.5, animations: {
-                        self.moneyLeft.textColor = UIColor.black
+                UIView.transition(with: self.moneyLeft, duration: 0.25, options: .transitionCrossDissolve, animations: {
+                    self.moneyLeft.textColor = UIColor.black
                 }, completion: nil)
             })
-            UIView.transition(with: moneyLeft, duration: 0.25, options: .transitionCrossDissolve, animations: {},
-                              completion: nil)
         }
         dismissKeyboard()
     }
