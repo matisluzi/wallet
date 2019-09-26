@@ -136,6 +136,17 @@ class ViewController: UIViewController {
             }
             addPurchaseToHistory(name: purchaseNameHis, date: purchaseDateHis, amount: purchaseAmountHis)
             saveData()
+            purchaseName.text = ""
+            purchaseAmount.text = ""
+            UIView.animate(withDuration: 0.5, delay: 0.5, options:[], animations: {
+                self.moneyLeft.textColor = UIColor.green
+            }, completion: {_ in
+                UIView.animate(withDuration: 0.5, animations: {
+                        self.moneyLeft.textColor = UIColor.black
+                }, completion: nil)
+            })
+            UIView.transition(with: moneyLeft, duration: 0.25, options: .transitionCrossDissolve, animations: {},
+                              completion: nil)
         }
         dismissKeyboard()
     }
