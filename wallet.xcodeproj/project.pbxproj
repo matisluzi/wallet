@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B62CA69C23327594000FD730 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CA69B23327594000FD730 /* TableViewController.swift */; };
 		B62CA69E2332770A000FD730 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CA69D2332770A000FD730 /* customCell.swift */; };
+		B62CA6A223329819000FD730 /* Imperfecta Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B62CA6A123329819000FD730 /* Imperfecta Regular.ttf */; };
 		B6D0B2212330CA7600F0857B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0B2202330CA7600F0857B /* AppDelegate.swift */; };
 		B6D0B2232330CA7600F0857B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0B2222330CA7600F0857B /* ViewController.swift */; };
 		B6D0B2262330CA7600F0857B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D0B2242330CA7600F0857B /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		B62CA69B23327594000FD730 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B62CA69D2332770A000FD730 /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		B62CA6A123329819000FD730 /* Imperfecta Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Imperfecta Regular.ttf"; sourceTree = "<group>"; };
 		B6D0B21D2330CA7600F0857B /* wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D0B2202330CA7600F0857B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D0B2222330CA7600F0857B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62CA69F2332972E000FD730 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B62CA6A123329819000FD730 /* Imperfecta Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		B6D0B2142330CA7600F0857B = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 				B6D0B2272330CA7600F0857B /* Assets.xcassets */,
 				B6D0B2292330CA7600F0857B /* LaunchScreen.storyboard */,
 				B6D0B22C2330CA7600F0857B /* Info.plist */,
+				B62CA69F2332972E000FD730 /* fonts */,
 			);
 			path = wallet;
 			sourceTree = "<group>";
@@ -137,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62CA6A223329819000FD730 /* Imperfecta Regular.ttf in Resources */,
 				B6D0B22B2330CA7600F0857B /* LaunchScreen.storyboard in Resources */,
 				B6D0B2282330CA7600F0857B /* Assets.xcassets in Resources */,
 				B6D0B2262330CA7600F0857B /* Main.storyboard in Resources */,

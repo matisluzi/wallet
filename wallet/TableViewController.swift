@@ -65,7 +65,7 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath) as! customCell
-        cell.showCellData(name: UserDefaults.standard.array(forKey: "purchaseNames")?[indexPath.row] as! String, date: UserDefaults.standard.array(forKey: "purchaseDates")?[indexPath.row] as! String, amount: UserDefaults.standard.array(forKey: "purchaseAmounts")?[indexPath.row] as! Double)
+        cell.showCellData(name: UserDefaults.standard.array(forKey: "purchaseNames")?.reversed()[indexPath.row] as! String, date: UserDefaults.standard.array(forKey: "purchaseDates")?.reversed()[indexPath.row] as! String, amount: UserDefaults.standard.array(forKey: "purchaseAmounts")?.reversed()[indexPath.row] as! Double)
         print("runs")
         return cell
     }

@@ -251,7 +251,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="imageLetter" destination="NaA-Zu-zQe" id="Bia-r3-dQb"/>
-                                    <outlet property="purchaseAmountLabel" destination="hgK-qh-TcZ" id="IWu-He-UJr"/>
+                                    <outlet property="purchaseAmountLabel" destination="hgK-qh-TcZ" id="rZr-RD-aAB"/>
                                     <outlet property="purchaseDateLabel" destination="GL9-uo-xK3" id="m8m-23-5pL"/>
                                     <outlet property="purchaseNameLabel" destination="8pi-jc-n0v" id="d4B-Ba-4hC"/>
                                 </connections>
@@ -263,7 +263,7 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <outlet property="tableView" destination="I36-sx-OWS" id="B63-Ss-ESp"/>
+                        <outlet property="tableView" destination="I36-sx-OWS" id="XzM-MB-JbX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y78-6J-yMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
