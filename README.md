@@ -1,3 +1,4 @@
+# !!!OLD!!! Check out [wallet-new](https://github.com/matisluzi/wallet-new) instead
 # wallet
 ## App that tracks your purchases against a budget.
 ### Short demonstration: [here](https://imgur.com/a/SKW7ff6)
